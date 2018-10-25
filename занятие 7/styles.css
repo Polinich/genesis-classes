@@ -7,9 +7,6 @@ html, body {
 	margin: 0;
     padding:0;
     scroll-behavior: smooth;
-}
-
-html {
     font-family: 'Tahoma', sans-serif;
 }
 
@@ -32,5 +29,76 @@ p {
 img {
     width: 300px;
     height: 300px;
+}
+
+.fon1{
+    background-image:url(images/bg-1.jpg);
+}
+
+.fon2{
+    background-image:url(images/bg-2.jpg);
+}
+
+.fon3{
+    background-image:url(images/bg-3.jpg);
+}
+
+.hello{
+    color: rgb(255, 215, 0);
+}
+
+.dalee1{
+    color:rgb(173, 216, 230);text-decoration: underline;font-size:1.7em;
+}
+
+.text1{
+    color: white;
+}
+
+.page1{
+    color: rgb(184, 134, 11);
+}
+
+.nazad1{
+    font-size:1.7em;text-decoration: underline;color:rgb(85, 107, 47);
+}
+
+.dalee2{
+    font-size:1.7em;text-decoration: underline;color:rgb(85, 107, 47);
+}
+
+.page3{
+    color: rgb(255, 215, 0);text-align: center;
+}
+
+.nazad2{
+    font-size:1.7em;color: rgb(128, 128, 0);text-decoration: underline;
+}
+
+.vnachalo{
+    font-size:1.7em;color: rgb(128, 128, 0);text-decoration: underline;
+}
+
+.img{
+    text-align: center;
+}
+
+.fe{
+    opacity:0;
+}
+
+.table{
+    border-style: solid;
+    height: 250px;
+    width: 250px;
+    border-width: 4px;
+    border-bottom-color:red;
+    border-top-color: greenyellow;
+    border-left-color: blueviolet;
+    border-right-color: rgb(228, 34, 218);
+    background-color:rgb(223, 165, 194);
+    margin: 50px 500px;
+    transform: skew(-20deg);
+    border-radius: 30px;
 }
 
