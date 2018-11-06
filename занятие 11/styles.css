@@ -1,0 +1,181 @@
+@font-face { 
+    font-family: 'CocaCola'; 
+    src: url('fonts/CocaCola.woff') format('woff');
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+html,
+body{
+	margin: 0;
+	padding: 0; 
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.menu li{
+    display: inline-block;
+    margin-right: -5px;
+
+}
+
+.header-page h1{
+    color:white;
+    padding-top: 70px;
+}
+
+.header-page p{
+    color:white;
+    text-align: center;  
+    margin: 40px;
+}
+
+.menu {
+    background-color: darkslateblue;
+    border-bottom: 4px solid green;
+    text-align: left;
+    min-height: 10px;
+    width: 100%;
+}
+
+.menu ul {
+    padding: 0;
+    margin:0;
+}
+
+.menu a {
+    color: #fff;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    background-color:green;
+}
+
+.main{
+    background-color:green;
+}
+
+.header-page{
+    min-height: 100vh;
+    background-image: url('images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.header-page a{
+    opacity: 0.5;
+    font-size: 30px;
+    color: white;
+    font-weight: bold; 
+    text-decoration: none;
+}
+
+.firstpage {
+    font-size: 40px;
+    color:black;
+    min-height: 100vh;
+}
+
+.header-page, .firstpage, .secondpage, .thirdpage{
+    border-top:1px solid transparent;
+}
+
+.firstpage h2{
+    text-decoration: underline;
+    font-size: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.firstpage p{
+    margin: 50px;
+    font-size: 30px;
+    font-family: 'CocaCola';
+}
+
+.secondpage{
+    min-height: 100vh;
+    background-image: url('images/background.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.secondpage h2{
+    color:white;
+    text-align: center;
+    text-decoration: underline;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.secondpage ul{
+    list-style: circle none;
+}
+
+.spisok1, .spisok2, .spisok3{
+    color:rgb(255, 165, 0);
+    display: inline-block;
+    font-weight: bold;
+}
+
+
+.spisok1{
+    text-align: left;
+    margin: 0px 100px 10px 200px;
+}
+
+.spisok1 .podspisok{
+    color:white;
+}
+
+.spisok2{
+    text-align: center;
+    margin:  0 90px;
+}
+
+.spisok3{
+    text-align: right;
+    margin: 0 90px;
+}
+
+.thirdpage {
+    min-height: 80vh;
+    background-color: #fff;
+    margin: 0 80px;
+    padding: 0 80px;
+}
+    
+.thirdpage h2{
+    color:black;
+    text-align: center;
+    text-decoration: underline;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.thirdpage img{
+    width: 1030px;
+    height: 200px;   
+    opacity: 0.5;
+}
+
+.thirdpage p{
+    text-align: justify;
+    text-indent: 15px;
+}
+
+.footer footer{
+    background-color:grey;
+    height: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+    color: #fff;
+    font-weight: bold;
+    text-indent: 100px;
+}
+
