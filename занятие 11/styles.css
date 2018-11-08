@@ -36,11 +36,48 @@ body{
     text-align: left;
     min-height: 10px;
     width: 100%;
+    position: fixed;
+    z-index: 10;
 }
 
 .menu ul {
     padding: 0;
     margin:0;
+}
+
+.lvl2 li{
+    display: block;
+}
+
+.menu li{
+    position: relative;
+}
+
+.lvl2{
+    position:absolute;
+    width: 90px;
+    display: none;
+}
+
+.menu li:hover .lvl2{
+    background-color:green;
+    display:block;
+}
+
+.lvl3 li{
+    display: block;
+}
+
+.lvl3{
+    position: absolute;
+    left: 90px;
+    top:0px;
+    display:none;
+}
+
+.lvl2 li:hover .lvl3{
+    background-color:pink;
+    display:block;
 }
 
 .menu a {
